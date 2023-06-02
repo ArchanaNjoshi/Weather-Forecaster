@@ -1,0 +1,77 @@
+.sw-container {
+  color: rgb(44, 44, 44);
+  margin: 1em 4em 1em 4em;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  max-width: 345px;
+  padding: 1% 2% 1% 2%;
+
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 1.2vw;
+  height: 12vw;
+  width: 16.5vw;
+}
+.sw-section-1,
+.sw-section-2,
+.sw-section-3 {
+  display: flex;
+  flex-direction: row;
+  min-height: 3em;
+  max-height: 6em;
+  min-width: 6em;
+  justify-content: space-between;
+  align-items: center;
+}
+.sw-section-1 {
+}
+.sw-loc {
+  text-align: center;
+}
+.sw-btn {
+}
+.sw-section-2 {
+}
+.sw-temp-block {
+}
+.sw-temp-val {
+  font-size: 2.5vw;
+}
+.sw-temp-icon {
+}
+
+.sw-img {
+  height: 4.5vw;
+  width: 4.5vw;
+  max-width: 5.5vw;
+  max-height: 5.5vw;
+}
+.sw-warn {
+  display: flex;
+  flex-direction: row;
+  color: #e6b56b;
+  text-align: center;
+  margin: auto 0;
+}
+.sw-warn-icon {
+  color: #fcb851;
+}
+.sw-warn-type {
+  font-size: 0.8vw;
+  text-align: center;
+  padding-left: 8%;
+}
+.sw-desc {
+  color: #e6b56b;
+  margin: auto 0;
+  font-size: 0.8vw;
+}
+.sw-section-3 {
+}
