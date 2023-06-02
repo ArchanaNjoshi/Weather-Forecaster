@@ -1,0 +1,44 @@
+.graph-title {
+  color: rgb(188, 188, 188);
+  padding: 2% 2% 2% 0%;
+  font-size: 1.4vw;
+  font-weight: 550;
+}
+.graph-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(223, 223, 223);
+  border-radius: 20px;
+  background-color: #fdfcfc;
+  padding-left: 5%;
+  padding-right: 5%;
+  max-height: 18em;
+  min-height: fit-content;
+}
+.graph-title-section {
+  flex-grow: 1;
+  text-align: end;
+  vertical-align: bottom;
+}
+.graph-sub-title {
+}
+.graph-label {
+  color: rgb(188, 188, 188);
+  padding: 2%;
+  font-size: 0.8vw;
+  font-weight: 550;
+}
+.graph-value {
+  color: rgb(70, 70, 70);
+  padding: 2%;
+  font-size: 0.9vw;
+  font-weight: 550;
+}
+.graph-output {
+  flex-grow: 2;
+  float: left;
+}
+.graph-section-1 {
+  display: flex;
+  flex-direction: row;
+}
