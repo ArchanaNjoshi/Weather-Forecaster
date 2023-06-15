@@ -17,10 +17,10 @@ function App() {
         <Routes>
           <Route
             exact
-            path="/weather-details/:location"
+            path="/Weather-Forecaster/weather-details/:location"
             element={<DetailsWeather />}
           />
-          <Route exact path="/" element={<Dashboard />} />
+          <Route exact path="/Weather-Forecaster/" element={<Dashboard />} />
         </Routes>
       </BrowserRouter>
     </Provider>

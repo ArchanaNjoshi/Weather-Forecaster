@@ -57,7 +57,7 @@ function CarousalWeather(props) {
             />
           </div> */}
           <Link
-            to={`/weather-details/${locationSaved}`}
+            to={`/Weather-Forecaster/weather-details/${locationSaved}`}
             className="details-redirect"
           >
             <DisplayWeather location={locationSaved} />

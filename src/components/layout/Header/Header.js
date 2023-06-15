@@ -21,7 +21,7 @@ const Header = () => {
 
   return (
     <div style={topBarStyle}>
-      <Link to="/">
+      <Link to="/Weather-Forecaster/">
         <img
           src={logo}
           alt="Weather"
