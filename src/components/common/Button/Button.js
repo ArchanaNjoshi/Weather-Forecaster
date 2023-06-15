@@ -26,16 +26,18 @@ function Button(props) {
     },
   });
 
+  const iconStyles = {fontSize: "1vw"};
+
   return (
     <ThemeProvider theme={theme}>
       <MuiButton
         color="primary"
         variant={variant || "contained"}
         startIcon={
-          (icon === "add" && <AddIcon />) ||
-          (icon === "back" && <ArrowBackIosNewOutlinedIcon />) ||
-          (icon === "tick" && <DoneOutlinedIcon/>) ||
-          (icon === "front" && <KeyboardArrowRightOutlinedIcon />)
+          (icon === "add" && <AddIcon style={iconStyles} />) ||
+          (icon === "back" && <ArrowBackIosNewOutlinedIcon style={iconStyles}/>) ||
+          (icon === "tick" && <DoneOutlinedIcon style={iconStyles}/>) ||
+          (icon === "front" && <KeyboardArrowRightOutlinedIcon style={iconStyles}/>)
         }
         size={size || "large"}
         // color={color || "primary"}

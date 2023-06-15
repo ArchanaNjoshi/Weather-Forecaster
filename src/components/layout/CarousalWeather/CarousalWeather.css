@@ -19,3 +19,33 @@
 .details-redirect {
   text-decoration: none;
 }
+@media only screen and (max-width: 1000px) {
+
+  .cw-container {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 1%;
+  }
+  .cw-btn-section {
+    margin-left: 15%;
+  }
+  .cw-btn-remove {
+    margin: 2%;
+    margin-left: 4%;
+  }
+}
+@media only screen and (max-width: 750px) {
+
+  .cw-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+  }
+  .cw-btn-section {
+    margin-left: 15%;
+  }
+  .cw-btn-remove {
+    margin: 2%;
+    margin-left: 4%;
+  }
+}

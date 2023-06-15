@@ -20,8 +20,6 @@
   text-align: end;
   vertical-align: bottom;
 }
-.graph-sub-title {
-}
 .graph-label {
   color: rgb(188, 188, 188);
   padding: 2%;
@@ -41,4 +39,21 @@
 .graph-section-1 {
   display: flex;
   flex-direction: row;
+}
+@media only screen and (max-width: 600px) {
+  .graph-title {
+    font-size: 3vw;
+
+  }
+  .graph-container {
+    max-height: 40em;
+    min-height: fit-content;
+  }
+  .graph-label {
+    font-size: 1.5vw;
+    font-weight: 550;
+  }
+  .graph-value {
+    font-size: 1.3vw;
+  }
 }

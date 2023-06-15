@@ -49,3 +49,32 @@
   font-family: Roboto;
   text-align: center;
 }
+@media only screen and (max-width: 600px) {
+
+  .weather-img {
+    max-width: 10vw;
+    max-height: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .weather-section-2 {
+height: auto;
+  }
+  .weather-block {
+    max-height: 9em;
+  }
+  .weather-city {
+    font-size: 5.1vw;
+  }
+  .weather-value {
+    font-size: 7vw;
+  }
+  .weather-sub-title,
+  .weather-sub-value {
+    font-size: 1.9vw;
+  }
+  /* body {
+    background-color: lightblue;
+  } */
+}

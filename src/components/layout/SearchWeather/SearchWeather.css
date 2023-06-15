@@ -45,6 +45,8 @@
   font-size: 2.5vw;
 }
 .sw-temp-icon {
+  font-size: 1vw;
+
 }
 
 .sw-img {
@@ -62,6 +64,7 @@
 }
 .sw-warn-icon {
   color: #fcb851;
+  font-size: 1vw;
 }
 .sw-warn-type {
   font-size: 0.8vw;
@@ -75,3 +78,97 @@
 }
 .sw-section-3 {
 }
+@media only screen and (max-width: 986px) {
+  .sw-container {
+    max-width: 345px;
+    padding: 1% 2% 1% 2%;
+    font-size: 3vw;
+    height: 25vw;
+    width: 31.5vw;
+  }
+  .sw-temp-val {
+    font-size: 6vw;
+  }
+  .sw-temp-icon {
+    font-size: 2vw; 
+  } 
+  .sw-img {
+    height: 6.5vw;
+    width: 6.5vw;
+    max-width: 7.5vw;
+    max-height: 7.5vw;
+  }
+  .sw-warn-icon {
+    font-size: 2vw;
+  }
+  .sw-warn-type {
+    font-size: 2vw;
+  }
+  .sw-desc {
+    font-size: 2vw;
+  }
+}
+
+  @media only screen and (max-width: 600px) {
+    .sw-container {
+      margin: 1em 4em 1em 6.5em;
+      max-width: 345px;
+      padding: 1% 3% 1% 3%;
+      font-size: 3vw;
+      height: 30vw;
+      width: 45vw;
+    }
+    .sw-temp-val {
+      font-size: 5vw;
+    }
+    .sw-temp-icon {
+      font-size: 1vw; 
+    } 
+    .sw-img {
+      height: 6.5vw;
+      width: 6.5vw;
+      max-width: 7.5vw;
+      max-height: 7.5vw;
+    }
+    .sw-warn-icon {
+      font-size: 2vw;
+    }
+    .sw-warn-type {
+      font-size: 2vw;
+    }
+    .sw-desc {
+      font-size: 2vw;
+    }
+  }
+
+    @media only screen and (max-width: 450px) {
+      .sw-container {
+        margin: 1em 4em 1em 2em;
+        max-width: 345px;
+        padding: 1% 4% 1% 4%;
+        font-size: 5vw;
+        height: 45vw;
+        width: 65vw;
+      }
+      .sw-temp-val {
+        font-size: 7vw;
+      }
+      .sw-temp-icon {
+        font-size: 2vw; 
+      } 
+      .sw-img {
+        height: 12.5vw;
+        width: 12.5vw;
+        max-width: 14.5vw;
+        max-height: 14.5vw;
+      }
+      .sw-warn-icon {
+        font-size: 5vw;
+      }
+      .sw-warn-type {
+        font-size: 4vw;
+      }
+      .sw-desc {
+        font-size: 4vw;
+      }
+    }

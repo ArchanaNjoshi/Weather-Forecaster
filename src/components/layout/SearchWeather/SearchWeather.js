@@ -9,13 +9,13 @@ function SearchWeather(props) {
   console.log("Props", props);
   console.log("weather in search comp", weatherData);
   const weatherIconUrl = "https://openweathermap.org/img/wn/";
-
+  const iconStyles = {fontSize: "1vw"};
   return (
     <>
       <div className="sw-container">
         <div className="sw-section-1">
           <div className="sw-loc"> {weatherData.cityName}</div>
-          <KeyboardArrowRightOutlinedIcon />
+          <KeyboardArrowRightOutlinedIcon className={iconStyles} />
         </div>
         <div className="sw-section-2">
           <div className="sw-temp-block">

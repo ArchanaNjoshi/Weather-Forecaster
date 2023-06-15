@@ -36,3 +36,39 @@ select:focus {
 .dashboard-redirect {
   text-decoration: none;
 }
+@media only screen and (max-width: 1200px) {
+  .search-loc-input {
+    flex-grow: 2;
+    height: 4vw;
+    padding: 0%;
+    padding-left: 1.6em;
+    font-size: 1.5vw;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .search-loc-input {
+    flex-grow: 2;
+    height: 6vw;
+    padding: 0%;
+    padding-left: 1.6em;
+    font-size: 2.2vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .search-loc-input {
+    flex-grow: 2;
+    height: 6vw;
+    padding: 0%;
+    padding-left: 1.6em;
+    font-size: 2.5vw;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .search-loc-input {
+    flex-grow: 2;
+    height: 9vw;
+    padding: 0%;
+    padding-left: 1.6em;
+    font-size: 5vw;
+  }
+}

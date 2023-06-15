@@ -146,8 +146,10 @@ function DetailsWeather(props) {
                 fontWeight: 900,
                 color: "#4194FF",
                 borderRadius: "5px",
-                fontSize: "1vw",
+                fontSize: "0.9em",
+                
               }}
+        
             />
           </div>
           <div className="dw-btn-sub-2">
@@ -161,7 +163,8 @@ function DetailsWeather(props) {
                   fontWeight: 900,
                   color: "#455555",
                   borderRadius: "5px",
-                  fontSize: "1vw",
+                  fontSize: "0.9em",
+                  
                 }}
               />
             )}
@@ -179,7 +182,7 @@ function DetailsWeather(props) {
                     fontWeight: 900,
                     color: "#fff",
                     borderRadius: "8px",
-                    fontSize: ".7vw",
+                    fontSize: ".6em",
                     height: "90%",
                     margin: "2%",
                   }}
@@ -195,7 +198,7 @@ function DetailsWeather(props) {
                     fontWeight: 900,
                     color: "#fff",
                     borderRadius: "8px",
-                    fontSize: ".7vw",
+                    fontSize: ".6em",
                     height: "90%",
                     margin: "2%",
                   }}
