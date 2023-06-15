@@ -67,7 +67,7 @@ function DetailsWeather(props) {
 
   // navigating to dashboard
   const navigate = useNavigate();
-  const redirectPath = "/";
+  const redirectPath = "/Weather-Forecaster/";
 
   // Calling fetch function for both weather and forecast
   useEffect(() => {

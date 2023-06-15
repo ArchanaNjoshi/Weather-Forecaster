@@ -130,7 +130,7 @@ function Dashboard() {
       {weatherData && (
         <Link
           className="dashboard-redirect"
-          to={`/weather-details/${location}`}
+          to={`/Weather-Forecaster/weather-details/${location}`}
         >
           <SearchWeather weatherData={weatherData} />
         </Link>
