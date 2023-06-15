@@ -26,6 +26,42 @@
 .dw-sub-weather {
   margin-bottom: 3%;
 }
+.btns{
+  font-weight: 900;
+  border-radius: "5px";
+}
+.back-btn{
+  font-weight: 900;
+  color: "#4194FF";
+  border-radius: "5px";
+  font-size: "1vw ";
+}
+.add-btn{
+  color: "#455555";
+  font-size: "1vw",
+}
+
 /* .dw-sub-forecast{
 
 } */
+@media only screen and (max-width: 600px) {
+  .dw-container {
+    margin: 3% 5%;
+  }
+  .dw-btn-add,
+.dw-btn-remove {
+  margin: 2%;
+}
+.dw-btn-remove {
+  margin-left: 4%;
+}
+.dw-section-2 {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+.dw-sub-weather {
+  margin-bottom: 3%;
+}
+}

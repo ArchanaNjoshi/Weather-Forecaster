@@ -6,6 +6,8 @@ import "./WeatherCard.css";
 const WeatherCard = (props) => {
   const { weatherData } = props;
   const weatherIconUrl = "https://openweathermap.org/img/wn/";
+  const iconStylesLocation = {fontSize: "1vw", marginLeft: "0.5em"};
+  const iconStylesDegree = {fontSize: "1vw"};
 
   return (
     <div className="weather-container">
@@ -17,12 +19,13 @@ const WeatherCard = (props) => {
         ></img>
         <h2 className="weather-city">
           {weatherData.cityName}
-          <NearMeIcon style={{ marginLeft: "0.5em" }} />
+          <NearMeIcon style={iconStylesLocation}  />
         </h2>
         <div className="weather-block weather-value">
           {weatherData.temperature}
           <FiberManualRecordOutlinedIcon
             sx={{ fontSize: 14, verticalAlign: "100%" }}
+            style={iconStylesDegree}
           />
         </div>
       </div>
